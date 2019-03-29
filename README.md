@@ -44,3 +44,13 @@ Click the url after the message: "Authorize this app by visiting this url" After
 > https://dev.fitbit.com/getting-started/
 > https://www.freestylelibre.nl/
 
+
+## Wish list
+
+- [x] Food API
+- [x] Google calendar API
+
+Due to lack of budget the hardware components were not actually implemented, just described in the research paper.
+- [ ] Fitbit hardware 
+- [ ] Freestyle libre
+
