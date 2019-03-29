@@ -1,6 +1,18 @@
 <% include partials/head.ejs %>
 
-  <h1>Welcome to Dialog | a diabetes type 2 application</h1>
-  <h2>This is our homepage</h2>
+  <h1>Welcome <%= data.name %> this is Dialog | a diabetes type 2 application</h1>
+  <section>
+    <p>
+      Dialog provides data about food consumption, blood sugar levels and physiological activities.
+      You can also connect your personal calendar to receive suggestions on medicine intake.
+    </p>
+    <ul>
+      <li><a href="food">Food API</a></li>
+      <li><a href="calendar">Calendar API</a></li>
+      <li><a href="fitbit">Connect Fitbit</a></li>
+      <li><a href="freestyle">Connect Freestyle libre</a></li>
+    </ul>
+    </section>
+
 
 <% include partials/footer.ejs %>

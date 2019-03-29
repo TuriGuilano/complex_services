@@ -2,20 +2,19 @@
 
   <h1>Welcome to Dialog | a diabetes type 2 application</h1>
 
-  <form action="/overview" method="POST">
+  <form action="/overview" method="post">
     <h2>Login</h2>
-    <label for="email">Email</label>
-    <input type="email" id="email" />
-    <label for="password">Password</label>
-    <input type="text" id="password" />
-    <input type="submit" value="login" />
-
-    <h2>No account? Create one.</h2>
-    <label for="email">Email</label>
-    <input type="email" id="email" />
-    <label for="password">Password</label>
-    <input type="text" id="password" />
-    <input type="submit" value="Create account" />
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" />
+    <label for="age">Age</label>
+    <input type="number" id="age" name="age" />
+    <label for="sex">Please select your sex</label>
+    <select id="sex">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="none">None</option>
+    </select>
+    <input type="submit" value="Continue" />
   </form>
 
 <% include partials/footer.ejs %>

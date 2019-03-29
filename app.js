@@ -17,7 +17,7 @@ app.set('view engine', 'ejs');
 // will be ignored.
 app.use(compression())
 app.use(express.static('public'));
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 // let router handle all requests
 app.use('/', router);

@@ -1,0 +1,11 @@
+<% include partials/head.ejs %>
+  <h2>Here is an overview of the requested data.</h2>
+    <% nutritionixResponse.forEach(function(val) { %>
+      <ul>
+        <li>Name: <%= val.item_name %></li>
+        <li><img src="<%= val.thumbnail %>" /></li>
+        <li>Calories: <%= val.nutrient_value %></li>
+        <li>Serving quantity: <%= val.serving_qty %></li>
+      </ul>
+    <% }); %>
+<% include partials/footer.ejs %>
