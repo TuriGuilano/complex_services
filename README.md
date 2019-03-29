@@ -27,12 +27,20 @@ npm install
 Please navigate to this link: https://developers.google.com/calendar/quickstart/nodejs and click the blue button saying 'enable the google calendar api'.
 After, click the button; 'download client configuration'. **IMPORTANT** Place this file in the ROOT of the project (same level as app.js).
 
-5. when running the application and selecting the google calendar API, please keep your terminal open as you will be prompted to give authorization via
-your terminal. Click the url after the message: "Authorize this app by visiting this url" After authorizing, copy the code that is being given. You have to paste the code into your terminal where it says: 'Enter the code from that page here'. Et Voila; there are twenty events.
+5. We can now run the project by typing the following command:
+
+```bash
+npm start
+```
+
+6. When running the application and selecting the google calendar API (second page after stating name age and gender), please keep your terminal open as you will be prompted to give authorization via
+your terminal. 
+
+Click the url after the message: "Authorize this app by visiting this url" After authorizing, copy the code that is being given. You have to paste the code into your terminal where it says: 'Enter the code from that page here'. Et Voila; there are twenty events.
 
 ## Services used
-https://developer.nutritionix.com
-https://developers.google.com/calendar/
-https://dev.fitbit.com/getting-started/
-https://www.freestylelibre.nl/
+> https://developer.nutritionix.com
+> https://developers.google.com/calendar/
+> https://dev.fitbit.com/getting-started/
+> https://www.freestylelibre.nl/
 
