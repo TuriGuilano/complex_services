@@ -5,9 +5,7 @@ const {google} = require('googleapis');
 const request = require('request');
 
 exports.serviceHandler = (userInput) => {
-  console.log('inside servicehandler', userInput);
   return new Promise((resolve, reject) => {
-    console.log('inside promise', userInput);
     let queryString = `https://apibeta.nutritionix.com/v2/search?q=${userInput}&limit=10&offset=0`;
     const config = {
       url: queryString,

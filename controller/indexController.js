@@ -25,8 +25,6 @@ exports.food = (req, res) => {
 // export fetch controller to handle service request
 exports.fetch = async (req, res) => {
   let userInput = req.body.query;
-  console.log('inside fetch func', userInput);
   let nutritionixResponse = await serviceHandler(userInput);
-  console.log('joeee', nutritionixResponse.results)
   res.render('foodDetail', {nutritionixResponse: nutritionixResponse.results});
 }

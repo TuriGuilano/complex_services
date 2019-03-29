@@ -1,5 +1,6 @@
 <% include partials/head.ejs %>
   <h2>Here is an overview of the requested data.</h2>
+    <a href="/food">Back</a>
     <% nutritionixResponse.forEach(function(val) { %>
       <ul>
         <li>Name: <%= val.item_name %></li>
